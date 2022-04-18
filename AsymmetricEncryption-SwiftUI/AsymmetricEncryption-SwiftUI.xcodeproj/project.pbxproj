@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		452F4D58280C932F00DB4AE6 /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 452F4D57280C932F00DB4AE6 /* SwiftKeychainWrapper */; };
 		4549E32D28006E930018E88C /* AsymmetricEncryption_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4549E32C28006E930018E88C /* AsymmetricEncryption_SwiftUIApp.swift */; };
 		4549E32F28006E930018E88C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4549E32E28006E930018E88C /* ContentView.swift */; };
 		4549E33128006E950018E88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4549E33028006E950018E88C /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452F4D58280C932F00DB4AE6 /* SwiftKeychainWrapper in Frameworks */,
 				45D16220280A034300DEEA5F /* SwiftyRSA in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,6 +89,7 @@
 			name = "AsymmetricEncryption-SwiftUI";
 			packageProductDependencies = (
 				45D1621F280A034300DEEA5F /* SwiftyRSA */,
+				452F4D57280C932F00DB4AE6 /* SwiftKeychainWrapper */,
 			);
 			productName = "AsymmetricEncryption-SwiftUI";
 			productReference = 4549E32928006E930018E88C /* AsymmetricEncryption-SwiftUI.app */;
@@ -118,6 +121,7 @@
 			mainGroup = 4549E32028006E930018E88C;
 			packageReferences = (
 				45D1621E280A034300DEEA5F /* XCRemoteSwiftPackageReference "SwiftyRSA" */,
+				452F4D56280C932F00DB4AE6 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
 			);
 			productRefGroup = 4549E32A28006E930018E88C /* Products */;
 			projectDirPath = "";
@@ -351,6 +355,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		452F4D56280C932F00DB4AE6 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Chaos-Intelligence/SwiftKeychainWrapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
 		45D1621E280A034300DEEA5F /* XCRemoteSwiftPackageReference "SwiftyRSA" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Chaos-Intelligence/SwiftyRSA";
@@ -362,6 +374,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		452F4D57280C932F00DB4AE6 /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 452F4D56280C932F00DB4AE6 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
+			productName = SwiftKeychainWrapper;
+		};
 		45D1621F280A034300DEEA5F /* SwiftyRSA */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 45D1621E280A034300DEEA5F /* XCRemoteSwiftPackageReference "SwiftyRSA" */;
