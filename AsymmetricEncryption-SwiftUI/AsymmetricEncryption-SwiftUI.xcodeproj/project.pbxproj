@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4516AC2F28146C8800A0689C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4516AC2E28146C8800A0689C /* ViewModel.swift */; };
 		452F4D58280C932F00DB4AE6 /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 452F4D57280C932F00DB4AE6 /* SwiftKeychainWrapper */; };
 		4549E32D28006E930018E88C /* AsymmetricEncryption_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4549E32C28006E930018E88C /* AsymmetricEncryption_SwiftUIApp.swift */; };
 		4549E32F28006E930018E88C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4549E32E28006E930018E88C /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4516AC2E28146C8800A0689C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		4549E32928006E930018E88C /* AsymmetricEncryption-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AsymmetricEncryption-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4549E32C28006E930018E88C /* AsymmetricEncryption_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsymmetricEncryption_SwiftUIApp.swift; sourceTree = "<group>"; };
 		4549E32E28006E930018E88C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			children = (
 				4549E32C28006E930018E88C /* AsymmetricEncryption_SwiftUIApp.swift */,
 				4549E32E28006E930018E88C /* ContentView.swift */,
+				4516AC2E28146C8800A0689C /* ViewModel.swift */,
 				4549E33028006E950018E88C /* Assets.xcassets */,
 				4549E33228006E950018E88C /* Preview Content */,
 			);
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4549E32F28006E930018E88C /* ContentView.swift in Sources */,
+				4516AC2F28146C8800A0689C /* ViewModel.swift in Sources */,
 				4549E32D28006E930018E88C /* AsymmetricEncryption_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
